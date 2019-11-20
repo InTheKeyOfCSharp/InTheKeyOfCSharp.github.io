@@ -26,11 +26,11 @@ youtube:
 # Share button options
 share:
   facebook: true
-  twitter: true
+  twitter:
   tumblr:
   pinterest:
   pocket:
-  reddit: true
+  reddit:
   linkedin:
   wordpress:
   email: true
