@@ -1,3 +1,19 @@
+.pagination a, .pagination span {
+  padding: 7px 18px;
+  border: 1px solid #eee;
+  margin-left: -2px;
+  margin-right: -2px;
+  background-color: #ffffff;
+  display: inline-block;
+}
+
+.pagination a {    
+  &:hover {
+      background-color: #f1f1f1;
+      color: #333;
+  }
+}
+
 /* --- Pagination --- */
 .pagination {
   @extend %padding-nav;
@@ -23,26 +39,4 @@
     }
   }
 
-  .button {
-    margin: 0;
-    display: inline-block;
-
-    .fa {
-      &.fa-chevron-right, &.fa-chevron-left {
-        font-size: initial;
-      }
-    }
-
-    i .fa-chevron-left .fa-chevron-right {
-      vertical-align: inherit;
-    }
-  }
-
-  .previous {
-    float: left;
-  }
-
-  .next {
-    float: right;
-  }
 }

@@ -3,13 +3,13 @@ baseurl: ""
 url: "https://InTheKeyOfCSharp.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Type on Strap                                    # site's title
-description: "A website with blog posts and pages"      # used by search engines
-avatar: assets/img/triangle.png                         # Empty for no avatar in navbar
-favicon: assets/favicon.ico                             # Icon displayed in the tab
+title: InTheKeyOfCSharp                                    # site's title
+description: "Programming and Personal Blog"               # used by search engines
+avatar: assets/img/csharp.png                          # Empty for no avatar in navbar
+favicon: assets/favicon.ico                                # Icon displayed in the tab
 
 # Header and footer text
-header_text:                                            # Change Blog header text
+header_text: "Ramblings of a fletchling programmer trying to understand everything"
 header_feature_image: assets/img/pexels/triangular.jpeg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
@@ -21,11 +21,11 @@ color_image: /assets/img/lineart.png                    # A bit transparent for 
 
 # Features
 katex: true                                             # Enable if using math markup
-google_analytics:                                       # Tracking ID, e.g. "UA-000000-01"
-disqus_shortname:                                       # Your discus shortname for comments
+google_analytics: "UA-153153532-1"                      # Tracking ID, e.g. "UA-000000-01"
+disqus_shortname: "https-inthekeyofcsharp-github-io"    # Your discus shortname for comments
 layout_variables:                                       # Open the "_sass > base" folder, and open "_variables.scss"
-footer_icons:                                           # In _data/social.yml
-share_buttons:                                          # In _data/social.yml
+footer_icons: true                                      # In _data/social.yml
+share_buttons: true                                     # In _data/social.yml
 authors:                                                # In _data/authors.yml
 language:                                               # In _data/language.yml
 
@@ -50,4 +50,3 @@ exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "
           "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
 theme: type-on-strap                                  # if using the theme as a jekyll theme gem
-#remote_theme: sylhare/Type-on-Strap                     # If using as a remote_theme in github

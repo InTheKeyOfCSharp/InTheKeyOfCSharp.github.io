@@ -1,21 +1,21 @@
 # Icons on the footer
 rss: true         # Make sure you created a feed.xml with feed.xml layout
-email_address:    # Full email address, e.g. "sam@example.com"
+email_address: InTheKeyOfCSharp@gmail.com   # Full email address, e.g. "sam@example.com"
 behance:
 bitbucket:
 dribbble:
 facebook:
 flickr:
 gitlab:
-github: "sylhare"
+github: "InTheKeyOfCSharp"
 instagram:
 keybase:
-linkedin:         # Full URL
+linkedin: "https://www.linkedin.com/in/casey-largent-01531511a/"
 pinterest:
 reddit:
 soundcloud:
-stack_overflow:
-stack_exchange:   # Full URL
+stack_overflow: "https://stackoverflow.com/users/7120211/inthekeyofcsharp?tab=profile"
+stack_exchange: "https://stackexchange.com/users/9588371/inthekeyofcsharp" # Full URL
 steam:
 tumblr:
 twitter:          # "twitter username"
@@ -26,11 +26,11 @@ youtube:
 # Share button options
 share:
   facebook: true
-  twitter:
+  twitter: true
   tumblr:
   pinterest:
   pocket:
-  reddit:
-  linkedin:
+  reddit: true
+  linkedin: true
   wordpress:
   email: true
