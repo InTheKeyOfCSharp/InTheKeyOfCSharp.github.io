@@ -49,4 +49,5 @@ plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
 exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "*.gem", ".idea", "vendor/*",
           "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
-theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+remote_theme: InTheKeyOfCSharp/Type-on-Strap
+#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
