@@ -3,14 +3,14 @@ baseurl: ""
 url: "https://InTheKeyOfCSharp.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
-title: InTheKeyOfCSharp                                    # site's title
+title: InTheKeyOfCSharp - Programming Blog                 # site's title
 description: "Programming and Personal Blog"               # used by search engines
-avatar: assets/img/csharp.png                          # Empty for no avatar in navbar
+avatar: assets/img/csharp.png                              # Empty for no avatar in navbar
 favicon: assets/favicon.ico                                # Icon displayed in the tab
 
 # Header and footer text
-header_text: "Ramblings of a Greenhorn Programmer"
-header_feature_image: assets/img/pexels/triangular.jpeg
+header_text: "Ramblings of a Greenhorn Technologist"
+header_feature_image: assets/img/pexels/computer.jpeg
 footer_text: >
   Powered by <a href="https://jekyllrb.com/">Jekyll</a> with <a href="https://github.com/sylhare/Type-on-Strap">Type on Strap</a>
 
@@ -50,4 +50,4 @@ exclude: [".jekyll-cache", "Gemfile", "Gemfile.lock", "type-on-strap.gemspec", "
           "LICENSE", "README.md", "screenshot.png", "assets/package.json", "assets/node_modules", "assets/gulpfile.js"]
 
 remote_theme: InTheKeyOfCSharp/Type-on-Strap
-#theme: type-on-strap                                  # if using the theme as a jekyll theme gem
+theme:
