@@ -2,7 +2,7 @@
 layout: post
 title: Personal Project Motivation
 author: inthekeyofcsharp (Casey Largent)
-feature-img: "assets/img/pexels/start.jpg"
+feature-img: "assets/img/pexels/crumpled-paper.jpg"
 tags: [Programming, About]
 ---
 
